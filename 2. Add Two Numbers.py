@@ -13,7 +13,7 @@ class Solution(object):
         :rtype: ListNode
 
         test url :https://leetcode.com/problems/add-two-numbers/description/
-        考察的是数据结构,以及
+        考察的是数据结构
         """
         l3 = ListNode(0)
         head = l3
