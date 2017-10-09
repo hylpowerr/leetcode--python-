@@ -4,6 +4,9 @@ class Solution:
         :type nums: List[int]
         :type target: int
         :rtype: List[int]
+        第一种解决思路:暴力解决 时间复杂度为 O(n^2)
+        第二种解决思路:先排序,取头和尾相加,若大于target则尾-1,若小于target则头+1 其时间复杂度为O(nlogn)
+        第三种解决思路:使用python的dict,其类似于其他语言的map,其时间复杂度为O(n)
         """
         dic = {}
         for i in range(len(nums)):
