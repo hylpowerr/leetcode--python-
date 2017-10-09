@@ -4,8 +4,13 @@ class Solution(object):
         :type s: str
         :rtype: str
 
+
+        test url:https://leetcode.com/problems/longest-palindromic-substring/description/
         s1:转换后的字符串
         size :辅助数组size[i]表示以字符T[i]为中心的最长回文字串的最右字符到T[i]的长度
+
+        使用Manacher算法
+
         """
         #以'#'进行构造奇串 以'@', '$'对首尾定义方式越界
         s1 = '@#'
