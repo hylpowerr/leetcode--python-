@@ -6,4 +6,5 @@
  2. 2.Add Two Numbers
  3. 3.Longest Substring Without Repeating Characters
  4. 5.Longest Palindromic Substring
- 10. 10.Regular Expression Matching
+ 5. 10.Regular Expression Matching
+ 6. 17.Letter Combinations of a Phone Number
