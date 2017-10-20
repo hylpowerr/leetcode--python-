@@ -59,3 +59,4 @@ if __name__ == '__main__':
     ex = Solution()
     result = ex.longestPalindrome(s)
     print(result)
+    
